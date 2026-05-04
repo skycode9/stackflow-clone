@@ -2,8 +2,16 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="text-3xl text-teal-400 mt-5 text-center">
-      Welcome to Next JS{" "}
+    <div>
+      <p className="text-3xl font-black text-light-500">
+        Welcome to Next.js 👋
+      </p>
+      <p className="font-inter text-3xl font-black text-light-500">
+        Welcome to Next.js (Inter) 👋
+      </p>
+      <p className="font-space-grotesk text-3xl font-black text-light-500">
+        Welcome to Next.js (Space Grotesk) 👋
+      </p>
     </div>
   );
 };
