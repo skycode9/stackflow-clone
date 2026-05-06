@@ -43,6 +43,7 @@ export default function RootLayout({
       className={cn("font-sans", geist.variable)}
     >
       <body
+        suppressHydrationWarning
         className={` ${inter.className} ${spaceGrotesk.variable} antialiased`}
       >
         <ThemeProvider
